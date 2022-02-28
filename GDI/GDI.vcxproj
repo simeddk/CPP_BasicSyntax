@@ -124,7 +124,10 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClInclude Include="Objects\Background.h" />
     <ClInclude Include="Objects\GameObject.h" />
+    <ClInclude Include="Objects\Monster.h" />
+    <ClInclude Include="Objects\Npc.h" />
     <ClInclude Include="Objects\Player.h" />
     <ClInclude Include="Renderer\Renderer.h" />
     <ClInclude Include="stdafx.h" />
@@ -132,7 +135,10 @@
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Main.cpp" />
+    <ClCompile Include="Objects\Background.cpp" />
     <ClCompile Include="Objects\GameObject.cpp" />
+    <ClCompile Include="Objects\Monster.cpp" />
+    <ClCompile Include="Objects\Npc.cpp" />
     <ClCompile Include="Objects\Player.cpp" />
     <ClCompile Include="Renderer\Renderer.cpp" />
     <ClCompile Include="Systems\Device.cpp" />

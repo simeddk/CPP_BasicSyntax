@@ -53,15 +53,15 @@ void Player::Move()
 	RECT rt;
 	GetClientRect(Device::Get()->GetHwnd(), &rt);
 
-	if (position.X < rt.left)
-		position.X = rt.left;
+	if (position.X < rt.left - image->GetWidth() * 0.5f)
+		position.X = rt.left - image->GetWidth() * 0.5f;
 
-	if (position.X > rt.right)
-		position.X = rt.right;
+	if (position.X > rt.right - image->GetWidth() * 0.5)
+		position.X = rt.right - image->GetWidth() * 0.5;
 
-	if (position.Y > rt.bottom)
-		position.Y = rt.bottom;
+	if (position.Y > rt.bottom - image->GetWidth() * 2.0)
+		position.Y = rt.bottom - image->GetWidth() * 2.0;
 
-	if (position.Y < rt.top)
-		position.Y = rt.top;
+	if (position.Y < rt.top - image->GetWidth() * 2.0 + 200.f)
+		position.Y = rt.top - image->GetWidth() * 2.0 + 200.f;
 }

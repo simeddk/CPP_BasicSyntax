@@ -14,6 +14,15 @@
     <ClInclude Include="Objects\Player.h">
       <Filter>Objects</Filter>
     </ClInclude>
+    <ClInclude Include="Objects\Background.h">
+      <Filter>Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="Objects\Npc.h">
+      <Filter>Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="Objects\Monster.h">
+      <Filter>Objects</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <Filter Include="Systems">
@@ -38,6 +47,15 @@
       <Filter>Renderer</Filter>
     </ClCompile>
     <ClCompile Include="Objects\Player.cpp">
+      <Filter>Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="Objects\Background.cpp">
+      <Filter>Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="Objects\Npc.cpp">
+      <Filter>Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="Objects\Monster.cpp">
       <Filter>Objects</Filter>
     </ClCompile>
   </ItemGroup>
