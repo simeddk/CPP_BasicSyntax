@@ -1,0 +1,244 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>15.0</VCProjectVersion>
+    <ProjectGuid>{25F8CB27-EA4C-437E-9770-15765452D623}</ProjectGuid>
+    <RootNamespace>BasicSynytax</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0.17763.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup />
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <SDLCheck>true</SDLCheck>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <SDLCheck>true</SDLCheck>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="01_Variable\ByteSizeDemo.cpp" />
+    <ClCompile Include="01_Variable\EnumDemo.cpp" />
+    <ClCompile Include="01_Variable\StructDemo.cpp" />
+    <ClCompile Include="01_Variable\TypedefDemo.cpp" />
+    <ClCompile Include="01_Variable\VariableDemo.cpp" />
+    <ClCompile Include="02_Operator\ArithmeticDemo.cpp" />
+    <ClCompile Include="02_Operator\BitDemo.cpp" />
+    <ClCompile Include="02_Operator\IncreasementDemo.cpp" />
+    <ClCompile Include="02_Operator\RelationalDemo.cpp" />
+    <ClCompile Include="02_Operator\StaticCastDemo.cpp" />
+    <ClCompile Include="02_Operator\TernaryDemo.cpp" />
+    <ClCompile Include="03_ControlStatement\IfDemo.cpp" />
+    <ClCompile Include="03_ControlStatement\SwitchDemo.cpp" />
+    <ClCompile Include="04_Loop\ForDemo.cpp" />
+    <ClCompile Include="04_Loop\MoveDemo.cpp" />
+    <ClCompile Include="04_Loop\WhileDemo.cpp" />
+    <ClCompile Include="05_Function\CallStackDemo.cpp" />
+    <ClCompile Include="05_Function\FuncDemo.cpp" />
+    <ClCompile Include="06_Array\ArrayDemo.cpp" />
+    <ClCompile Include="06_Array\ArrayDemo2.cpp" />
+    <ClCompile Include="06_Array\DimensionalArrayDemo.cpp" />
+    <ClCompile Include="06_Array\ShuffleDemo.cpp" />
+    <ClCompile Include="06_Array\SortDemo.cpp" />
+    <ClCompile Include="06_Array\SwapDemo.cpp" />
+    <ClCompile Include="07_Pointer\AddressDemo.cpp" />
+    <ClCompile Include="07_Pointer\ArrayAddressDemo.cpp" />
+    <ClCompile Include="07_Pointer\CallByDemo.cpp" />
+    <ClCompile Include="07_Pointer\DoublePointerDemo.cpp" />
+    <ClCompile Include="07_Pointer\DynamicAllocateDemo.cpp" />
+    <ClCompile Include="08_Struct\BytePaddingDemo.cpp" />
+    <ClCompile Include="08_Struct\OperatorOverloading.cpp" />
+    <ClCompile Include="08_Struct\StructMemberDemo.cpp" />
+    <ClCompile Include="09_Class\ClassDemo.cpp" />
+    <ClCompile Include="09_Class\Job.cpp" />
+    <ClCompile Include="10_Constructor\ConstructorDemo.cpp" />
+    <ClCompile Include="10_Constructor\Weapon.cpp" />
+    <ClCompile Include="11_Extends\Actor.cpp" />
+    <ClCompile Include="11_Extends\ExtendsDemo.cpp" />
+    <ClCompile Include="11_Extends\Pawn.cpp" />
+    <ClCompile Include="12_Cast\Animal.cpp" />
+    <ClCompile Include="12_Cast\Architecture.cpp" />
+    <ClCompile Include="12_Cast\CastDemo.cpp" />
+    <ClCompile Include="12_Cast\Character.cpp" />
+    <ClCompile Include="12_Cast\GameObject.cpp" />
+    <ClCompile Include="13_CopyConstructor\CopyContructorDemo.cpp" />
+    <ClCompile Include="14_Static\HasStatic.cpp" />
+    <ClCompile Include="14_Static\StaticDemo.cpp" />
+    <ClCompile Include="15_Template\TemplateDemo.cpp" />
+    <ClCompile Include="16_STL\StlDemo.cpp" />
+    <ClCompile Include="17_Library\LibraryDemo.cpp" />
+    <ClCompile Include="18_SingleTone\Device.cpp" />
+    <ClCompile Include="18_SingleTone\SingleToneDemo.cpp" />
+    <ClCompile Include="99_Homework\HW_0113.cpp" />
+    <ClCompile Include="99_Homework\HW_0127.cpp" />
+    <ClCompile Include="Main.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="01_Variable\ByteSizeDemo.h" />
+    <ClInclude Include="01_Variable\EnumDemo.h" />
+    <ClInclude Include="01_Variable\StructDemo.h" />
+    <ClInclude Include="01_Variable\TypedefDemo.h" />
+    <ClInclude Include="01_Variable\VariableDemo.h" />
+    <ClInclude Include="02_Operator\ArithmeticDemo.h" />
+    <ClInclude Include="02_Operator\BitDemo.h" />
+    <ClInclude Include="02_Operator\IncreasementDemo.h" />
+    <ClInclude Include="02_Operator\RelationalDemo.h" />
+    <ClInclude Include="02_Operator\StaticCastDemo.h" />
+    <ClInclude Include="02_Operator\TernaryDemo.h" />
+    <ClInclude Include="03_ControlStatement\IfDemo.h" />
+    <ClInclude Include="03_ControlStatement\SwitchDemo.h" />
+    <ClInclude Include="04_Loop\ForDemo.h" />
+    <ClInclude Include="04_Loop\MoveDemo.h" />
+    <ClInclude Include="04_Loop\WhileDemo.h" />
+    <ClInclude Include="05_Function\CallStackDemo.h" />
+    <ClInclude Include="05_Function\FuncDemo.h" />
+    <ClInclude Include="06_Array\ArrayDemo.h" />
+    <ClInclude Include="06_Array\ArrayDemo2.h" />
+    <ClInclude Include="06_Array\DimensionalArrayDemo.h" />
+    <ClInclude Include="06_Array\ShuffleDemo.h" />
+    <ClInclude Include="06_Array\SortDemo.h" />
+    <ClInclude Include="06_Array\SwapDemo.h" />
+    <ClInclude Include="07_Pointer\AddressDemo.h" />
+    <ClInclude Include="07_Pointer\ArrayAddressDemo.h" />
+    <ClInclude Include="07_Pointer\CallByDemo.h" />
+    <ClInclude Include="07_Pointer\DoublePointerDemo.h" />
+    <ClInclude Include="07_Pointer\DynamicAllocateDemo.h" />
+    <ClInclude Include="08_Struct\BytePaddingDemo.h" />
+    <ClInclude Include="08_Struct\OperatorOverloading.h" />
+    <ClInclude Include="08_Struct\StructMemberDemo.h" />
+    <ClInclude Include="09_Class\ClassDemo.h" />
+    <ClInclude Include="09_Class\Job.h" />
+    <ClInclude Include="10_Constructor\ConstructorDemo.h" />
+    <ClInclude Include="10_Constructor\Weapon.h" />
+    <ClInclude Include="11_Extends\Actor.h" />
+    <ClInclude Include="11_Extends\ExtendsDemo.h" />
+    <ClInclude Include="11_Extends\Pawn.h" />
+    <ClInclude Include="12_Cast\Animal.h" />
+    <ClInclude Include="12_Cast\Architecture.h" />
+    <ClInclude Include="12_Cast\CastDemo.h" />
+    <ClInclude Include="12_Cast\Character.h" />
+    <ClInclude Include="12_Cast\GameObject.h" />
+    <ClInclude Include="13_CopyConstructor\CopyContructorDemo.h" />
+    <ClInclude Include="13_CopyConstructor\SomeClass.h" />
+    <ClInclude Include="14_Static\HasStatic.h" />
+    <ClInclude Include="14_Static\StaticDemo.h" />
+    <ClInclude Include="15_Template\Stack.h" />
+    <ClInclude Include="15_Template\TemplateDemo.h" />
+    <ClInclude Include="16_STL\StlDemo.h" />
+    <ClInclude Include="17_Library\LibraryDemo.h" />
+    <ClInclude Include="18_SingleTone\Device.h" />
+    <ClInclude Include="18_SingleTone\SingleToneDemo.h" />
+    <ClInclude Include="99_Homework\HW_0113.h" />
+    <ClInclude Include="99_Homework\HW_0127.h" />
+    <ClInclude Include="stdafx.h" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

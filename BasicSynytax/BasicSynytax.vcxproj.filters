@@ -1,0 +1,398 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="Main.cpp" />
+    <ClCompile Include="01_Variable\VariableDemo.cpp">
+      <Filter>01_Variable</Filter>
+    </ClCompile>
+    <ClCompile Include="01_Variable\EnumDemo.cpp">
+      <Filter>01_Variable</Filter>
+    </ClCompile>
+    <ClCompile Include="01_Variable\TypedefDemo.cpp">
+      <Filter>01_Variable</Filter>
+    </ClCompile>
+    <ClCompile Include="01_Variable\StructDemo.cpp">
+      <Filter>01_Variable</Filter>
+    </ClCompile>
+    <ClCompile Include="02_Operator\ArithmeticDemo.cpp">
+      <Filter>02_Operator</Filter>
+    </ClCompile>
+    <ClCompile Include="02_Operator\IncreasementDemo.cpp">
+      <Filter>02_Operator</Filter>
+    </ClCompile>
+    <ClCompile Include="02_Operator\BitDemo.cpp">
+      <Filter>02_Operator</Filter>
+    </ClCompile>
+    <ClCompile Include="02_Operator\RelationalDemo.cpp">
+      <Filter>02_Operator</Filter>
+    </ClCompile>
+    <ClCompile Include="02_Operator\StaticCastDemo.cpp">
+      <Filter>02_Operator</Filter>
+    </ClCompile>
+    <ClCompile Include="02_Operator\TernaryDemo.cpp">
+      <Filter>02_Operator</Filter>
+    </ClCompile>
+    <ClCompile Include="03_ControlStatement\IfDemo.cpp">
+      <Filter>03_ControlStatement</Filter>
+    </ClCompile>
+    <ClCompile Include="01_Variable\ByteSizeDemo.cpp">
+      <Filter>01_Variable</Filter>
+    </ClCompile>
+    <ClCompile Include="99_Homework\HW_0113.cpp">
+      <Filter>99_Homework</Filter>
+    </ClCompile>
+    <ClCompile Include="03_ControlStatement\SwitchDemo.cpp">
+      <Filter>03_ControlStatement</Filter>
+    </ClCompile>
+    <ClCompile Include="04_Loop\ForDemo.cpp">
+      <Filter>04_Loop</Filter>
+    </ClCompile>
+    <ClCompile Include="04_Loop\WhileDemo.cpp">
+      <Filter>04_Loop</Filter>
+    </ClCompile>
+    <ClCompile Include="04_Loop\MoveDemo.cpp">
+      <Filter>04_Loop</Filter>
+    </ClCompile>
+    <ClCompile Include="05_Function\FuncDemo.cpp">
+      <Filter>05_Function</Filter>
+    </ClCompile>
+    <ClCompile Include="05_Function\CallStackDemo.cpp">
+      <Filter>05_Function</Filter>
+    </ClCompile>
+    <ClCompile Include="06_Array\ArrayDemo.cpp">
+      <Filter>06_Array</Filter>
+    </ClCompile>
+    <ClCompile Include="06_Array\ArrayDemo2.cpp">
+      <Filter>06_Array</Filter>
+    </ClCompile>
+    <ClCompile Include="06_Array\SwapDemo.cpp">
+      <Filter>06_Array</Filter>
+    </ClCompile>
+    <ClCompile Include="06_Array\SortDemo.cpp">
+      <Filter>06_Array</Filter>
+    </ClCompile>
+    <ClCompile Include="06_Array\ShuffleDemo.cpp">
+      <Filter>06_Array</Filter>
+    </ClCompile>
+    <ClCompile Include="06_Array\DimensionalArrayDemo.cpp">
+      <Filter>06_Array</Filter>
+    </ClCompile>
+    <ClCompile Include="07_Pointer\AddressDemo.cpp">
+      <Filter>07_Pointer</Filter>
+    </ClCompile>
+    <ClCompile Include="07_Pointer\CallByDemo.cpp">
+      <Filter>07_Pointer</Filter>
+    </ClCompile>
+    <ClCompile Include="07_Pointer\DynamicAllocateDemo.cpp">
+      <Filter>07_Pointer</Filter>
+    </ClCompile>
+    <ClCompile Include="99_Homework\HW_0127.cpp">
+      <Filter>99_Homework</Filter>
+    </ClCompile>
+    <ClCompile Include="07_Pointer\ArrayAddressDemo.cpp">
+      <Filter>07_Pointer</Filter>
+    </ClCompile>
+    <ClCompile Include="07_Pointer\DoublePointerDemo.cpp">
+      <Filter>07_Pointer</Filter>
+    </ClCompile>
+    <ClCompile Include="08_Struct\StructMemberDemo.cpp">
+      <Filter>08_Struct</Filter>
+    </ClCompile>
+    <ClCompile Include="08_Struct\BytePaddingDemo.cpp">
+      <Filter>08_Struct</Filter>
+    </ClCompile>
+    <ClCompile Include="08_Struct\OperatorOverloading.cpp">
+      <Filter>08_Struct</Filter>
+    </ClCompile>
+    <ClCompile Include="09_Class\ClassDemo.cpp">
+      <Filter>09_Class</Filter>
+    </ClCompile>
+    <ClCompile Include="09_Class\Job.cpp">
+      <Filter>09_Class</Filter>
+    </ClCompile>
+    <ClCompile Include="10_Constructor\ConstructorDemo.cpp">
+      <Filter>10_Constructor</Filter>
+    </ClCompile>
+    <ClCompile Include="10_Constructor\Weapon.cpp">
+      <Filter>10_Constructor</Filter>
+    </ClCompile>
+    <ClCompile Include="11_Extends\ExtendsDemo.cpp">
+      <Filter>11_Extends</Filter>
+    </ClCompile>
+    <ClCompile Include="11_Extends\Actor.cpp">
+      <Filter>11_Extends</Filter>
+    </ClCompile>
+    <ClCompile Include="11_Extends\Pawn.cpp">
+      <Filter>11_Extends</Filter>
+    </ClCompile>
+    <ClCompile Include="12_Cast\CastDemo.cpp">
+      <Filter>12_Cast</Filter>
+    </ClCompile>
+    <ClCompile Include="12_Cast\GameObject.cpp">
+      <Filter>12_Cast</Filter>
+    </ClCompile>
+    <ClCompile Include="12_Cast\Character.cpp">
+      <Filter>12_Cast</Filter>
+    </ClCompile>
+    <ClCompile Include="12_Cast\Animal.cpp">
+      <Filter>12_Cast</Filter>
+    </ClCompile>
+    <ClCompile Include="12_Cast\Architecture.cpp">
+      <Filter>12_Cast</Filter>
+    </ClCompile>
+    <ClCompile Include="13_CopyConstructor\CopyContructorDemo.cpp">
+      <Filter>13_CopyContructor</Filter>
+    </ClCompile>
+    <ClCompile Include="14_Static\StaticDemo.cpp">
+      <Filter>14_Static</Filter>
+    </ClCompile>
+    <ClCompile Include="14_Static\HasStatic.cpp">
+      <Filter>14_Static</Filter>
+    </ClCompile>
+    <ClCompile Include="15_Template\TemplateDemo.cpp">
+      <Filter>15_Template</Filter>
+    </ClCompile>
+    <ClCompile Include="16_STL\StlDemo.cpp">
+      <Filter>16_STL</Filter>
+    </ClCompile>
+    <ClCompile Include="17_Library\LibraryDemo.cpp">
+      <Filter>17_Library</Filter>
+    </ClCompile>
+    <ClCompile Include="18_SingleTone\SingleToneDemo.cpp">
+      <Filter>18_SingleTone</Filter>
+    </ClCompile>
+    <ClCompile Include="18_SingleTone\Device.cpp">
+      <Filter>18_SingleTone</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h" />
+    <ClInclude Include="01_Variable\ByteSizeDemo.h">
+      <Filter>01_Variable</Filter>
+    </ClInclude>
+    <ClInclude Include="01_Variable\EnumDemo.h">
+      <Filter>01_Variable</Filter>
+    </ClInclude>
+    <ClInclude Include="01_Variable\TypedefDemo.h">
+      <Filter>01_Variable</Filter>
+    </ClInclude>
+    <ClInclude Include="01_Variable\StructDemo.h">
+      <Filter>01_Variable</Filter>
+    </ClInclude>
+    <ClInclude Include="02_Operator\ArithmeticDemo.h">
+      <Filter>02_Operator</Filter>
+    </ClInclude>
+    <ClInclude Include="02_Operator\IncreasementDemo.h">
+      <Filter>02_Operator</Filter>
+    </ClInclude>
+    <ClInclude Include="02_Operator\BitDemo.h">
+      <Filter>02_Operator</Filter>
+    </ClInclude>
+    <ClInclude Include="02_Operator\RelationalDemo.h">
+      <Filter>02_Operator</Filter>
+    </ClInclude>
+    <ClInclude Include="02_Operator\StaticCastDemo.h">
+      <Filter>02_Operator</Filter>
+    </ClInclude>
+    <ClInclude Include="02_Operator\TernaryDemo.h">
+      <Filter>02_Operator</Filter>
+    </ClInclude>
+    <ClInclude Include="03_ControlStatement\IfDemo.h">
+      <Filter>03_ControlStatement</Filter>
+    </ClInclude>
+    <ClInclude Include="01_Variable\VariableDemo.h">
+      <Filter>01_Variable</Filter>
+    </ClInclude>
+    <ClInclude Include="99_Homework\HW_0113.h">
+      <Filter>99_Homework</Filter>
+    </ClInclude>
+    <ClInclude Include="03_ControlStatement\SwitchDemo.h">
+      <Filter>03_ControlStatement</Filter>
+    </ClInclude>
+    <ClInclude Include="04_Loop\ForDemo.h">
+      <Filter>04_Loop</Filter>
+    </ClInclude>
+    <ClInclude Include="04_Loop\WhileDemo.h">
+      <Filter>04_Loop</Filter>
+    </ClInclude>
+    <ClInclude Include="04_Loop\MoveDemo.h">
+      <Filter>04_Loop</Filter>
+    </ClInclude>
+    <ClInclude Include="05_Function\FuncDemo.h">
+      <Filter>05_Function</Filter>
+    </ClInclude>
+    <ClInclude Include="05_Function\CallStackDemo.h">
+      <Filter>05_Function</Filter>
+    </ClInclude>
+    <ClInclude Include="06_Array\ArrayDemo.h">
+      <Filter>06_Array</Filter>
+    </ClInclude>
+    <ClInclude Include="06_Array\ArrayDemo2.h">
+      <Filter>06_Array</Filter>
+    </ClInclude>
+    <ClInclude Include="06_Array\SwapDemo.h">
+      <Filter>06_Array</Filter>
+    </ClInclude>
+    <ClInclude Include="06_Array\SortDemo.h">
+      <Filter>06_Array</Filter>
+    </ClInclude>
+    <ClInclude Include="06_Array\ShuffleDemo.h">
+      <Filter>06_Array</Filter>
+    </ClInclude>
+    <ClInclude Include="06_Array\DimensionalArrayDemo.h">
+      <Filter>06_Array</Filter>
+    </ClInclude>
+    <ClInclude Include="07_Pointer\AddressDemo.h">
+      <Filter>07_Pointer</Filter>
+    </ClInclude>
+    <ClInclude Include="07_Pointer\CallByDemo.h">
+      <Filter>07_Pointer</Filter>
+    </ClInclude>
+    <ClInclude Include="07_Pointer\DynamicAllocateDemo.h">
+      <Filter>07_Pointer</Filter>
+    </ClInclude>
+    <ClInclude Include="99_Homework\HW_0127.h">
+      <Filter>99_Homework</Filter>
+    </ClInclude>
+    <ClInclude Include="07_Pointer\ArrayAddressDemo.h">
+      <Filter>07_Pointer</Filter>
+    </ClInclude>
+    <ClInclude Include="07_Pointer\DoublePointerDemo.h">
+      <Filter>07_Pointer</Filter>
+    </ClInclude>
+    <ClInclude Include="08_Struct\StructMemberDemo.h">
+      <Filter>08_Struct</Filter>
+    </ClInclude>
+    <ClInclude Include="08_Struct\BytePaddingDemo.h">
+      <Filter>08_Struct</Filter>
+    </ClInclude>
+    <ClInclude Include="08_Struct\OperatorOverloading.h">
+      <Filter>08_Struct</Filter>
+    </ClInclude>
+    <ClInclude Include="09_Class\ClassDemo.h">
+      <Filter>09_Class</Filter>
+    </ClInclude>
+    <ClInclude Include="09_Class\Job.h">
+      <Filter>09_Class</Filter>
+    </ClInclude>
+    <ClInclude Include="10_Constructor\ConstructorDemo.h">
+      <Filter>10_Constructor</Filter>
+    </ClInclude>
+    <ClInclude Include="10_Constructor\Weapon.h">
+      <Filter>10_Constructor</Filter>
+    </ClInclude>
+    <ClInclude Include="11_Extends\ExtendsDemo.h">
+      <Filter>11_Extends</Filter>
+    </ClInclude>
+    <ClInclude Include="11_Extends\Actor.h">
+      <Filter>11_Extends</Filter>
+    </ClInclude>
+    <ClInclude Include="11_Extends\Pawn.h">
+      <Filter>11_Extends</Filter>
+    </ClInclude>
+    <ClInclude Include="12_Cast\CastDemo.h">
+      <Filter>12_Cast</Filter>
+    </ClInclude>
+    <ClInclude Include="12_Cast\GameObject.h">
+      <Filter>12_Cast</Filter>
+    </ClInclude>
+    <ClInclude Include="12_Cast\Character.h">
+      <Filter>12_Cast</Filter>
+    </ClInclude>
+    <ClInclude Include="12_Cast\Animal.h">
+      <Filter>12_Cast</Filter>
+    </ClInclude>
+    <ClInclude Include="12_Cast\Architecture.h">
+      <Filter>12_Cast</Filter>
+    </ClInclude>
+    <ClInclude Include="13_CopyConstructor\CopyContructorDemo.h">
+      <Filter>13_CopyContructor</Filter>
+    </ClInclude>
+    <ClInclude Include="13_CopyConstructor\SomeClass.h">
+      <Filter>13_CopyContructor</Filter>
+    </ClInclude>
+    <ClInclude Include="14_Static\StaticDemo.h">
+      <Filter>14_Static</Filter>
+    </ClInclude>
+    <ClInclude Include="14_Static\HasStatic.h">
+      <Filter>14_Static</Filter>
+    </ClInclude>
+    <ClInclude Include="15_Template\TemplateDemo.h">
+      <Filter>15_Template</Filter>
+    </ClInclude>
+    <ClInclude Include="15_Template\Stack.h">
+      <Filter>15_Template</Filter>
+    </ClInclude>
+    <ClInclude Include="16_STL\StlDemo.h">
+      <Filter>16_STL</Filter>
+    </ClInclude>
+    <ClInclude Include="17_Library\LibraryDemo.h">
+      <Filter>17_Library</Filter>
+    </ClInclude>
+    <ClInclude Include="18_SingleTone\SingleToneDemo.h">
+      <Filter>18_SingleTone</Filter>
+    </ClInclude>
+    <ClInclude Include="18_SingleTone\Device.h">
+      <Filter>18_SingleTone</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="01_Variable">
+      <UniqueIdentifier>{27dabdf5-025f-41c2-8ad0-ac369661392f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02_Operator">
+      <UniqueIdentifier>{0b67a557-9138-4f9e-9718-ad2e6db532a2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03_ControlStatement">
+      <UniqueIdentifier>{2d3a34d2-3339-4e04-b45f-359cd52413dc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="99_Homework">
+      <UniqueIdentifier>{ebb847d2-fc6e-4fd5-9fa2-9d43e1584740}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04_Loop">
+      <UniqueIdentifier>{af323813-4a53-4a59-bcea-6d016abd397c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="05_Function">
+      <UniqueIdentifier>{7baeddf6-c93c-4ad9-9049-19d165e146b5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="06_Array">
+      <UniqueIdentifier>{b9106a8b-667e-4317-a2f7-9e9d00de0cb6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="07_Pointer">
+      <UniqueIdentifier>{6f51df92-fd4e-4b95-8454-c951b3ec1e45}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="08_Struct">
+      <UniqueIdentifier>{f024d172-a7ac-4340-a3fa-4dcd6e0d1f7d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="09_Class">
+      <UniqueIdentifier>{9313ca92-56cd-4648-9cd4-1c778fa1e69c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="10_Constructor">
+      <UniqueIdentifier>{cdabf55c-a3ae-4398-8d5d-8e3942a2cd6f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="11_Extends">
+      <UniqueIdentifier>{c1214da7-6974-4f3c-8f47-07ab731c3339}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="12_Cast">
+      <UniqueIdentifier>{e3591882-5012-4324-9da2-d671db027578}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="13_CopyContructor">
+      <UniqueIdentifier>{957497d8-9901-4330-8d98-ce5fff5befb3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="14_Static">
+      <UniqueIdentifier>{f989d82b-47bc-4fc1-8568-28829562e4ee}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="15_Template">
+      <UniqueIdentifier>{887ae800-8cd8-403c-bbac-75b5c0e5ad07}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="16_STL">
+      <UniqueIdentifier>{1b745785-6d3f-450c-9e37-cb6cc783d7b8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="17_Library">
+      <UniqueIdentifier>{f45437f4-9e6c-466a-a155-c11d51b70c8e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="18_SingleTone">
+      <UniqueIdentifier>{059d6fa4-113a-4c3a-a13e-cf4fd74d228b}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
